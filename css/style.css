@@ -21,8 +21,8 @@ main div:first-child {
     border-radius: 15px;
 }
 
-#user-password {
-    padding: 20px;
+#price {
+    padding: 30px;
     color: rgb(32, 32, 32);
     font-weight: 700;
     text-transform: uppercase;

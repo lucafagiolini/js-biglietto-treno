@@ -7,6 +7,8 @@ let age = prompt('inserisci qui la tua età')
 console.log(age)
 
 // il prezzo del biglietto è definito in base ai km (0.21 € al km)
+let price = kmAmmount * 0.21
+console.log(price)
 
 // va applicato uno sconto del 20% per i minorenni
 
