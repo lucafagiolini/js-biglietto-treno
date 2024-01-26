@@ -18,7 +18,22 @@ console.log(discount20)
 let discount40 = price - (price * 0.4)
 console.log(discount40)
 
+// SE è minorenne, va applicato uno sconto del 20%.
+if (age < 18) {
+    document.getElementById('price').innerHTML = 'Il prezzo del tuo biglietto è di: ' + discount20.toFixed(2) + '€'
+    console.log(discount20)
+}
 
+// SE è over 65, va applicato uno sconto del 40%.
+else if (age > 65) {
+    document.getElementById('price').innerHTML = 'Il prezzo del tuo biglietto è di: ' + discount40.toFixed(2) + '€'
+    console.log(discount40)
+}
+
+else {
+    document.getElementById('price').innerHTML = 'Il prezzo del tuo biglietto è di: ' + price.toFixed(2) + '€'
+    console.log(price)
+}
 
 // L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 
