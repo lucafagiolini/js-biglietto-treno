@@ -59,15 +59,31 @@
 let userChoice = prompt('Choose between paper, scissors or rock')
 console.log(userChoice + " userChoice")
 
+if (userChoice === "paper") {
+    document.getElementById('userChoice').innerHTML = 'You chose: ' + userChoice
+}
+
+else if (userChoice === "scissors") {
+    document.getElementById('userChoice').innerHTML = 'You chose: ' + userChoice
+}
+
+else if (userChoice === "rock") {
+    document.getElementById('userChoice').innerHTML = 'You chose: ' + userChoice
+}
+
+
+
+
+
 // The computer chooses between paper, scissors or rock
 let computerChoice = Math.random(9)
 console.log(computerChoice + " computerChoice")
 
 
-console.log(computerChoice + " computerChoice")
 
 if (computerChoice < 3) {
     computerChoice = "paper";
+
 }
 
 else if (computerChoice > 3 && computerChoice < 6) {
@@ -76,6 +92,19 @@ else if (computerChoice > 3 && computerChoice < 6) {
 
 else {
     computerChoice = "rock";
+}
+
+
+if (computerChoice === "paper") {
+    document.getElementById('computerChoice').innerHTML = computerChoice
+}
+
+else if (computerChoice === "scissors") {
+    document.getElementById('computerChoice').innerHTML = computerChoice
+}
+
+else if (computerChoice === "rock") {
+    document.getElementById('computerChoice').innerHTML = computerChoice
 }
 
 
