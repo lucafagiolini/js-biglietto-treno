@@ -76,22 +76,24 @@ else if (userChoice === "rock") {
 
 
 // The computer chooses between paper, scissors or rock
-let computerChoice = Math.random(9)
+let computerChoice = Math.random()
 console.log(computerChoice + " computerChoice")
 
 
 
-if (computerChoice < 3) {
+if (computerChoice < 0.32) {
     computerChoice = "paper";
-
+    console.log(computerChoice + " computerChoice")
 }
 
-else if (computerChoice > 3 && computerChoice < 6) {
+else if (computerChoice > 0.32 && computerChoice < 0.65) {
     computerChoice = "scissors";
+    console.log(computerChoice + " computerChoice")
 }
 
 else {
     computerChoice = "rock";
+    console.log(computerChoice + " computerChoice")
 }
 
 
