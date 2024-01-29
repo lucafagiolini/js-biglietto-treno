@@ -60,12 +60,25 @@ let userChoice = prompt('Choose between paper, scissors or rock')
 console.log(userChoice + " userChoice")
 
 // The computer chooses between paper, scissors or rock
-let computerChoice = Math.random()
+let computerChoice = Math.random(9)
 console.log(computerChoice + " computerChoice")
 
-if (computerChoice < 0.34) {
+
+console.log(computerChoice + " computerChoice")
+
+if (computerChoice < 3) {
     computerChoice = "paper";
 }
+
+else if (computerChoice > 3 && computerChoice < 6) {
+    computerChoice = "scissors";
+}
+
+else {
+    computerChoice = "rock";
+}
+
+
 
 
 
