@@ -111,6 +111,34 @@ else if (computerChoice === "rock") {
 
 
 
+// result diplays
+if (userChoice === computerChoice) {
+    document.getElementById('result').innerHTML = 'It\'s a tie!'
+}
+
+else if (userChoice === "paper" && computerChoice === "rock") {
+    document.getElementById('result').innerHTML = 'You win!'
+}
+
+else if (userChoice === "paper" && computerChoice === "scissors") {
+    document.getElementById('result').innerHTML = 'You lose!'
+}
+
+else if (userChoice === "scissors" && computerChoice === "paper") {
+    document.getElementById('result').innerHTML = 'You win!'
+}
+
+else if (userChoice === "scissors" && computerChoice === "rock") {
+    document.getElementById('result').innerHTML = 'You lose!'
+}
+
+else if (userChoice === "rock" && computerChoice === "scissors") {
+    document.getElementById('result').innerHTML = 'You win!'
+}
+
+else if (userChoice === "rock" && computerChoice === "paper") {
+    document.getElementById('result').innerHTML = 'You lose!'
+}
 
 
 

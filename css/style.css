@@ -16,10 +16,16 @@ main h1 {
     color: white;
 }
 
-main div:first-child {
+#player_box {
     border: 1px solid;
     border-radius: 15px;
 }
+
+#player_box {
+    border: 1px solid;
+    border-radius: 15px;
+}
+
 
 #price {
     padding: 30px;

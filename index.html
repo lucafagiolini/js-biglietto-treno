@@ -33,15 +33,29 @@
 
     <!-- PAPER SCISSOR ROCK -->
 
-    <main class="d-flex align-content-center">
-        <div class="col-auto">
-            <h1>your choice.</h1>
-            <button type="button" id="userChoice" class="btn btn-outline-warning fs-4"></button>
-        </div>
-        <div class="col-auto">
-            <h1>computer choice.</h1>
-            <button type="button" id="computerChoice" class="btn btn-outline-warning fs-4"></button>
-        </div>
+    <main class="d-flex row m-auto">
+        <section class="d-flex g-2 justify-content-between  ">
+            <div id="player_box" class="col-5  p-5 ">
+                <h1>your choice.</h1>
+                <button type="button" id="userChoice" class="btn btn-outline-warning fs-4"></button>
+            </div>
+            <div>
+                <h1 id="divider" class="p-3 col-2  ">VS</h1>
+            </div>
+            <div id="computer_box" class="col-5  p-5  ">
+                <h1>computer choice.</h1>
+                <button type="button" id="computerChoice" class="btn btn-outline-warning fs-4"></button>
+            </div>
+        </section>
+        <!-- result -->
+        <section>
+            <div class="border-5 border-white">
+                <button type="button" id="result" class="btn btn-outline-warning fs-4"></button>
+
+            </div>
+
+
+        </section>
 
 
     </main>
