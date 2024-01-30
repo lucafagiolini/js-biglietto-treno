@@ -17,13 +17,15 @@ main h1 {
 }
 
 #player_box {
-    border: 1px solid;
-    border-radius: 15px;
+    background-color: #1d90ff;
+    border: solid;
+
 }
 
-#player_box {
-    border: 1px solid;
-    border-radius: 15px;
+#computer_box {
+    background-color: #1d90ff;
+    border: solid;
+
 }
 
 

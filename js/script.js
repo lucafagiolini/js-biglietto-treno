@@ -60,15 +60,15 @@ let userChoice = prompt('Choose between paper, scissors or rock')
 console.log(userChoice + " userChoice")
 
 if (userChoice === "paper") {
-    document.getElementById('userChoice').innerHTML = 'You chose: ' + userChoice
+    document.getElementById('userChoice').innerHTML = userChoice
 }
 
 else if (userChoice === "scissors") {
-    document.getElementById('userChoice').innerHTML = 'You chose: ' + userChoice
+    document.getElementById('userChoice').innerHTML = userChoice
 }
 
 else if (userChoice === "rock") {
-    document.getElementById('userChoice').innerHTML = 'You chose: ' + userChoice
+    document.getElementById('userChoice').innerHTML = userChoice
 }
 
 
